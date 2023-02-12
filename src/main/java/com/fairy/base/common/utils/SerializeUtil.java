@@ -10,7 +10,6 @@ import java.io.*;
  * @version 1.0
  * @date 2022/4/13 10:52
  */
-@Slf4j
 public class SerializeUtil {
 
     /**

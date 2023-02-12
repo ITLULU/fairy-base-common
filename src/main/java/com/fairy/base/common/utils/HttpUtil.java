@@ -24,7 +24,6 @@ import java.util.Map;
  * @version 1.0
  * @date 2022/4/2 20:54
  */
-@Slf4j
 public class HttpUtil {
 
 

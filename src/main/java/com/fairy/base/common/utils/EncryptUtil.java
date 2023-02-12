@@ -1,6 +1,5 @@
 package com.fairy.base.common.utils;
 
-import lombok.extern.slf4j.Slf4j;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
@@ -13,7 +12,6 @@ import javax.crypto.spec.IvParameterSpec;
  * @version 1.0
  * @date 2022/4/18 16:52
  */
-@Slf4j
 public class EncryptUtil {
 
     private static String defaultKey() {
