@@ -1,14 +1,12 @@
 package com.fairy.base.common.exception;
 
 import com.fairy.base.common.enums.ResultEnums;
-import lombok.Data;
 
 /**
  * @author huanglulu
  * @version 1.0
  * @date 2022/4/29 22:40
  */
-@Data
 public class GateWayException extends RuntimeException {
 
     private String msg;
@@ -19,5 +17,19 @@ public class GateWayException extends RuntimeException {
         this.code = enums.getResultCode();
     }
 
+    public String getMsg() {
+        return msg;
+    }
 
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
 }

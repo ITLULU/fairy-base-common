@@ -1,7 +1,6 @@
 package com.fairy.base.common.utils;
 
 import com.fairy.base.common.exception.ResultException;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.*;
 

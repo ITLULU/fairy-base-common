@@ -2,7 +2,6 @@ package com.fairy.base.common.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.fairy.base.common.exception.ResultException;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.methods.*;
 import org.apache.http.client.utils.URIBuilder;
